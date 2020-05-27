@@ -1,16 +1,16 @@
 package sub1;
 
 /*
- * ³¯Â¥ : 2020/04/29
- * ÀÌ¸§ : ±èµ¿¿í
- * ³»¿ë : ÀÚ¹Ù Hello World Ãâ·ÂÇÏ±â
+ * ë‚ ì§œ : 2020/04/29
+ * ì´ë¦„ : ê¹€ë™ìš±
+ * ë‚´ìš© : ìë°” Hello World ì¶œë ¥í•˜ê¸°
  */
 
 public class HelloWorld {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Hello World");
-		System.out.println("Hello Java");
+		System.out.println("Hello World~~~");
+		System.out.println("Hello Java~~~");
 	}
 }
