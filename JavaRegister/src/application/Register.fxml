@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="400.0" maxWidth="400.0" minHeight="332.0" minWidth="269.0" prefHeight="332.0" prefWidth="269.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="application.RegisterController">
+   <children>
+      <Button fx:id="btnReg1" layoutX="146.0" layoutY="288.0" mnemonicParsing="false" text="등록1" />
+      <Button fx:id="btnCancel" layoutX="100.0" layoutY="288.0" mnemonicParsing="false" text="취소" />
+      <TextField fx:id="txtUid" layoutX="100.0" layoutY="69.0" />
+      <TextField fx:id="txtName" layoutX="100.0" layoutY="109.0" />
+      <TextField fx:id="txtHp" layoutX="100.0" layoutY="153.0" />
+      <Label layoutX="20.0" layoutY="21.0" text="직원등록">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="71.0" text="아이디">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="111.0" text="이름">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="155.0" text="휴대폰">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="197.0" text="직급">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="244.0" text="부서">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnReg2" layoutX="198.0" layoutY="288.0" mnemonicParsing="false" text="등록2" />
+      <ComboBox fx:id="combPos" layoutX="100.0" layoutY="195.0" prefHeight="23.0" prefWidth="138.0" />
+      <ComboBox fx:id="combDep" layoutX="100.0" layoutY="242.0" prefHeight="23.0" prefWidth="138.0" />
+   </children>
+</AnchorPane>
